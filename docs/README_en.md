@@ -43,12 +43,12 @@ This project provides a clean, modular implementation of deep learning models fo
 
 ### Main Features
 
-✅ DNN and CNN models for MNIST
-✅ Embeddings extraction and visualization (t-SNE, UMAP)
-✅ Training history visualization
-✅ Ready-to-use training scripts
-✅ Interactive Jupyter Notebooks
-✅ Extensible architecture for new models
+- ✅ DNN and CNN models for MNIST
+- ✅ Embeddings extraction and visualization (t-SNE, UMAP)
+- ✅ Training history visualization
+- ✅ Ready-to-use training scripts
+- ✅ Interactive Jupyter Notebooks
+- ✅ Extensible architecture for new models
 
 ---
 

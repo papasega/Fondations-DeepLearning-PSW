@@ -51,7 +51,8 @@ logs/
 # Fichiers de suivi personnels (Non publiés)
 RELEASES_TODO.md
 
-# Notebooks mal placés à la racine (sécurité)
-CNN_GTSRB_98_45_FD_PSW.ipynb
+# Notebooks mal placés à la racine (racine uniquement)
+/CNN_GTSRB_98_45_FD_PSW.ipynb
 
-img_panneaux.png
+# Image privée à la racine uniquement
+/img_panneaux.png
