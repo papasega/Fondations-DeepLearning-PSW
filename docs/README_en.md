@@ -125,30 +125,33 @@ jupyter notebook
 ```
 Fondations-DeepLearning-PSW/
 │
-├── Cours/                      # Slides and course notes
-│   └── Module_00_Intro_Python/ # Introduction to Python (Basics)
+├── Cours/                           # 📖 Course Notes & Slides
+│   ├── Module_00_Intro_Python/      # Python, NumPy, Matplotlib
+│   ├── Module_01_DNN_MNIST/         # Dense Neural Network (DNN) - Classification
+│   ├── Module_02_CNN_MNIST/         # CNN + Embeddings Visualization
+│   ├── Module_03_PyTorch/           # PyTorch Crash Course
+│   └── Module_04_Computer_Vision/  # CNN on real data (GTSRB ~98%)
 │
-├── Travaux_Pratiques/          # Empty/fill-in-the-blank Notebooks for students
-│   └── Module_00_Intro_Python/ # Intro Practical Work
+├── Travaux_Pratiques/               # 📝 Fill-in-the-blank Notebooks (Students)
+│   ├── Module_00_Intro_Python/
+│   ├── Module_01_DNN_MNIST/
+│   ├── Module_02_CNN_MNIST/
+│   └── Module_03_PyTorch/
 │
-├── Solutions/                  # Completed/corrected Notebooks
-│   ├── Module_00_Intro_Python/ # Solutions for Intro PW
-│   ├── DNN_MNIST_psw.ipynb
-│   ├── CNN_MNIST_Embeddings.ipynb
-│   └── psw-Deblurring_PnP_DnCNN_FB.ipynb
+├── Solutions/                       # ✅ Corrected Notebooks
+│   ├── Module_00_Intro_Python/
+│   ├── Module_01_DNN_MNIST/
+│   ├── Module_02_CNN_MNIST/
+│   ├── Module_03_PyTorch/
+│   ├── DNN_MNIST_psw.ipynb          # Keras DNN Reference
+│   └── CNN_MNIST_Embeddings.ipynb   # Keras CNN Reference
 │
-├── core_framework/             # Base classes for PWs
-│   ├── base/                   # ABC and Protocols
-│   ├── models/                 # Reference models
-│   ├── trainers/               # Training logic
-│   ├── visualizers/            # Visualization tools
-│   └── utils/                  # Data utilities
-│
-├── scripts/                    # Test training scripts
-├── docs/                       # Additional documentation
-├── assets/                     # Images, etc.
-├── requirements.txt            # Python dependencies
-└── README.md                   # Main French file
+├── core_framework/                  # 🔧 Reusable Base Classes (ABC)
+├── scripts/                         # Training scripts
+├── docs/                            # Bilingual documentation
+├── assets/                          # Images & resources
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -164,7 +167,7 @@ Fondations-DeepLearning-PSW/
 ## 📈 Roadmap
 
 - [ ] Add more models (ResNet, VGG, etc.)
-- [ ] PyTorch translation
+- [x] PyTorch translation
 - [ ] Transfer learning
 - [ ] REST API
 - [ ] Web Interface

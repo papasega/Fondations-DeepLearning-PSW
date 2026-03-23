@@ -204,30 +204,33 @@ print(results)
 ```
 Fondations-DeepLearning-PSW/
 │
-├── Cours/                      # Slides et notes de cours
-│   └── Module_00_Intro_Python/ # Introduction à Python (Bases)
+├── Cours/                           # 📖 Notes & Slides du cours
+│   ├── Module_00_Intro_Python/      # Python, NumPy, Matplotlib
+│   ├── Module_01_DNN_MNIST/         # Réseau Dense (DNN) - Classification
+│   ├── Module_02_CNN_MNIST/         # CNN + Visualisation des Embeddings
+│   ├── Module_03_PyTorch/           # Crash Course PyTorch
+│   └── Module_04_Computer_Vision/  # CNN sur données réelles (GTSRB ~98%)
 │
-├── Travaux_Pratiques/          # Notebooks vides / à compléter pour les étudiants
-│   └── Module_00_Intro_Python/ # TP d'introduction
+├── Travaux_Pratiques/               # 📝 Notebooks à trous (Étudiants)
+│   ├── Module_00_Intro_Python/
+│   ├── Module_01_DNN_MNIST/
+│   ├── Module_02_CNN_MNIST/
+│   └── Module_03_PyTorch/
 │
-├── Solutions/                  # Notebooks corrigés
-│   ├── Module_00_Intro_Python/ # Solutions du TP d'introduction
-│   ├── DNN_MNIST_psw.ipynb
-│   ├── CNN_MNIST_Embeddings.ipynb
-│   └── psw-Deblurring_PnP_DnCNN_FB.ipynb
+├── Solutions/                       # ✅ Notebooks corrigés
+│   ├── Module_00_Intro_Python/
+│   ├── Module_01_DNN_MNIST/
+│   ├── Module_02_CNN_MNIST/
+│   ├── Module_03_PyTorch/
+│   ├── DNN_MNIST_psw.ipynb          # Référence Keras DNN
+│   └── CNN_MNIST_Embeddings.ipynb   # Référence Keras CNN
 │
-├── core_framework/             # Classes de base pour les TPs
-│   ├── base/                   # ABC et Protocols
-│   ├── models/                 # Modèles de référence
-│   ├── trainers/               # Logique d'entraînement
-│   ├── visualizers/            # Outils de visualisation
-│   └── utils/                  # Utilitaires de données
-│
-├── scripts/                    # Scripts d'entraînement de test
-├── docs/                       # Documentation additionnelle
-├── assets/                     # Ressources images, etc.
-├── requirements.txt            # Dépendances Python
-└── README.md                   # Ce fichier
+├── core_framework/                  # 🔧 Classes de base réutilisables (ABC)
+├── scripts/                         # Scripts d'entraînement
+├── docs/                            # Documentation bilingue
+├── assets/                          # Images & ressources
+├── requirements.txt
+└── README.md
 ```
 
 ---
