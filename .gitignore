@@ -47,3 +47,6 @@ logs/
 *.keras
 *.pt
 *.pth
+
+# Fichiers de suivi personnels (Non publiés)
+RELEASES_TODO.md
