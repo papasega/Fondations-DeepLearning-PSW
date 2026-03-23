@@ -43,12 +43,12 @@ Ce projet fournit une implémentation propre et modulaire de modèles de deep le
 
 ### Fonctionnalités principales
 
-✅ Modèles DNN et CNN pour MNIST
-✅ Extraction et visualisation des embeddings (t-SNE, UMAP)
-✅ Visualisation de l'historique d'entraînement
-✅ Scripts d'entraînement prêts à l'emploi
-✅ Notebooks Jupyter interactifs
-✅ Architecture extensible pour nouveaux modèles
+- ✅ Modèles DNN et CNN pour MNIST
+- ✅ Extraction et visualisation des embeddings (t-SNE, UMAP)
+- ✅ Visualisation de l'historique d'entraînement
+- ✅ Scripts d'entraînement prêts à l'emploi
+- ✅ Notebooks Jupyter interactifs
+- ✅ Architecture extensible pour nouveaux modèles
 
 ---
 
