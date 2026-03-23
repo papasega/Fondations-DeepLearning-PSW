@@ -1,0 +1,30 @@
+# Deep Learning Shared PSW - Requirements
+# ========================================
+
+# Deep Learning
+tensorflow
+keras
+
+# Data Science
+numpy
+pandas
+
+# Visualization
+matplotlib
+seaborn
+
+# Dimensionality Reduction
+scikit-learn
+umap-learn
+
+# Jupyter
+jupyter
+notebook
+ipykernel
+
+# Type Checking (optional, for development)
+mypy
+
+# Testing (optional)
+pytest
+pytest-cov
