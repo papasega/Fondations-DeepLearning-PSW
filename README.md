@@ -117,11 +117,15 @@ VisualizerBase (ABC)
 ### Installation des dépendances
 
 ```bash
-# Cloner le repository
-git clone https://github.com/papasega/DeepLearning_Shared_PSW.git
-cd DeepLearning_Shared_PSW
+# 1. Cloner le repository
+git clone https://github.com/papasega/Fondations-DeepLearning-PSW.git
+cd Fondations-DeepLearning-PSW
 
-# Installer les dépendances
+# 2. Créer et activer un environnement virtuel (Recommandé)
+python3 -m venv env_dl
+source env_dl/bin/activate
+
+# 3. Installer les dépendances
 pip install -r requirements.txt
 ```
 

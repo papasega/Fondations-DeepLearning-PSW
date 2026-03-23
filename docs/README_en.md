@@ -89,11 +89,15 @@ The project follows a layered architecture with abstract base classes:
 ### Installing Dependencies
 
 ```bash
-# Clone the repository
-git clone https://github.com/papasega/DeepLearning_Shared_PSW.git
-cd DeepLearning_Shared_PSW
+# 1. Clone the repository
+git clone https://github.com/papasega/Fondations-DeepLearning-PSW.git
+cd Fondations-DeepLearning-PSW
 
-# Install dependencies
+# 2. Create and activate a virtual environment (Recommended)
+python3 -m venv env_dl
+source env_dl/bin/activate
+
+# 3. Install dependencies
 pip install -r requirements.txt
 ```
 
